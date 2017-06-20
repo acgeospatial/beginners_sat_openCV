@@ -1,6 +1,9 @@
 # beginners_sat_openCV
 Beginners guide to interactive manipulation of satellite data with open cv
 
+demo1.py - script to display image and right and left click to display information about colours / row & column
+demo2.py - script to plot a point (in red) on image and draw a line (in black) between points
+
 https://www.linkedin.com/pulse/beginners-guide-user-interaction-opencv-python-satellite-andrew-cutts
 
 ![alt tag](http://www.acgeospatial.co.uk/wp-content/uploads/2017/06/Title.png)
