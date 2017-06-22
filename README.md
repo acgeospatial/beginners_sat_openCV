@@ -48,23 +48,25 @@ By pressing escape you will close all windows, or in this case the image window.
 ## Create an event handler
 
 Don’t be put off, this is much simpler than you may think. First, build a function to do something when the mouse is clicked. Let’s return the x,y (rows, columns) of the image.
-
+```python
 def click_event(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         print x, y
+```
         
 You have to parse the 5 arguments (event, x, y, flags, param) for opencv to recognise the event (line 1). Line 2 says if the event is a left mouse click then print to the terminal x and y (line 3). Add this to the top of the script (just after the import cv2 line).
 
 Finally add this line between lines “cv2.imshow(‘original’, img)” and “cv2.waitKey(0)”
-
+```python
 cv2.setMouseCallback("original", click_event)
+```
 
 Check the cmd prompt: you should see x,y printed.
 
 Finally let’s print the RGB values onto the image after a right mouse click
 
 Add this code to the def click_event
-
+```python
 if event == cv2.EVENT_RBUTTONDOWN:
         red = img[y,x,2]
         blue = img[y,x,0]
@@ -74,6 +76,7 @@ if event == cv2.EVENT_RBUTTONDOWN:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,strRGB,(x,y), font, 1,(255,255,255),2)
         cv2.imshow('original', img)
+```
 
 What is happening here? In lines 2,3&4 we are getting the red, green and blue values from the image. I have ordered them in RGB, but notice the values in the square brackets – the 3rd value is the colour value (OpenCV works in BGR colour space hence the ordering). Line 4 prints the values to the cmd prompt, line 5 creates a string out of these values, eg “255,0,255” – this is assigned to the variable strRGB. Line 6 assigns the font to use and line 7 is where text is assigned.
 
