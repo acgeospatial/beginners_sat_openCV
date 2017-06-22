@@ -18,28 +18,7 @@ https://www.linkedin.com/pulse/beginners-guide-user-interaction-opencv-python-sa
 ![alt tag](http://www.acgeospatial.co.uk/wp-content/uploads/2017/06/Title.png)
 
 
-Beginners guide to user Interaction with OpenCV in Python
-Posted on 18th June 2017
-
-I have been working with OpenCV for a while now and I still find the speed of results very impressive. It makes for a compelling case for its use in image processing. Computer Vision, at least to me, represents such an incredible opportunity for Remote Sensing specialists as well as non-specialists. I have been meaning to write a beginners guide for a while now and basing it around user interaction seems to be an excellent introduction to OpenCV.
-Installing OpenCV
-
-You are going to need Python (either Python 3 or Python 2.7) installed on your computer. I generally use Python 2.7 and OpenCV 3.2. Here is a guide to installing OpenCV on windows; have patience it’s worth it!
-
-http://docs.opencv.org/3.2.0/d5/de5/tutorial_py_setup_in_windows.html
-
-If you are successful, calling import cv2 from a Python GUI should return no errors.
-
-Start by opening an image and viewing it
-
-import cv2
-img = cv2.imread('yourimage.jpg')
-cv2.imshow('original', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows
-
-
-Beginners guide to user Interaction with OpenCV in Python
+# Beginners guide to user Interaction with OpenCV in Python
 Posted on 18th June 2017
 
 I have been working with OpenCV for a while now and I still find the speed of results very impressive. It makes for a compelling case for its use in image processing. Computer Vision, at least to me, represents such an incredible opportunity for Remote Sensing specialists as well as non-specialists. I have been meaning to write a beginners guide for a while now and basing it around user interaction seems to be an excellent introduction to OpenCV.
@@ -65,7 +44,7 @@ This should be enough to view the image… save the file as xxx.py and run it. F
 
 By pressing escape you will close all windows, or in this case the image window.
 
-Create an event handler
+## Create an event handler
 
 Don’t be put off, this is much simpler than you may think. First, build a function to do something when the mouse is clicked. Let’s return the x,y (rows, columns) of the image.
 
