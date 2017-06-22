@@ -11,7 +11,7 @@ Beginners guide to interactive manipulation of satellite data with open cv
 
 ## Blog
 
-read below for blog post from 18th June 2017
+read below for blog post from 18th June 2017 (using [demo1.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo1.py))
 
 https://www.linkedin.com/pulse/beginners-guide-user-interaction-opencv-python-satellite-andrew-cutts
 
