@@ -31,13 +31,13 @@ http://docs.opencv.org/3.2.0/d5/de5/tutorial_py_setup_in_windows.html
 If you are successful, calling import cv2 from a Python GUI should return no errors.
 
 Start by opening an image and viewing it
-code(
+```python
 import cv2
 img = cv2.imread('yourimage.jpg')
 cv2.imshow('original', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows
-)
+```
 
 This should be enough to view the image… save the file as xxx.py and run it. For this example I am using a clipped Sentinel2 image of Iran. If I have lost you and you don’t know how to run a Python script this is an excellent guide.
 
