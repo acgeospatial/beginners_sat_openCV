@@ -18,7 +18,7 @@ def click_event(event, x, y, flags, param):
 		## display the colour image
 		cv2.imshow('colour', colour_image)	
 			
-img = cv2.imread('iran.jpg')
+img = cv2.imread('..//image.jpg')
 clone = img.copy()
 cv2.imshow('original', img)
 
