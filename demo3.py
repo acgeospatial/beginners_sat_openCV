@@ -1,7 +1,10 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+## Written by Andrew Cutts
+### this script will open a new window and display the colour that has been click on in the image
+
 import cv2
 import numpy as np
-
-### this script will open a new window and display the colour that has been click on in the image
 
 def click_event(event, x, y, flags, param):
 	if event == cv2.EVENT_LBUTTONDOWN:
