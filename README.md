@@ -7,7 +7,7 @@ Beginners guide to interactive manipulation of satellite data with open cv
 
 [demo2.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo2.py) - script to plot a point (in red) on image and draw a line (in black) between points
 
-[demo3.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo2.py) - script to display a new window containing the clicked RGB colour using interactive opencv
+[demo3.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo3.py) - script to display a new window containing the clicked RGB colour using interactive opencv
 
 ## Blog
 
