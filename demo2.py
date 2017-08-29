@@ -1,4 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+## Written by Andrew Cutts
 ### Script to draw a point on each click and connect a line on an (satellite) image using opencv
+
 import cv2
 import numpy as np
 
