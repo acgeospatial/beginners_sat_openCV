@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+## Written by Andrew Cutts
+
 import cv2
 
 def click_event(event, x, y, flags, param):
