@@ -9,6 +9,13 @@ Beginners guide to interactive manipulation of satellite data with open cv
 
 [demo3.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo3.py) - script to display a new window containing the clicked RGB colour using interactive opencv
 
+Update Jan 2018 -- 
+I have written up a Guide to using OpenCV and Satellite Iamgery using Juypter Notebooks on my blog http://www.acgeospatial.co.uk/jupyter-notebooks-and-satellite-imagery/
+
+Script is here [openCV_simple]() - intro to view sat images in notebooks
+
+End update ---
+
 ## Blog
 
 read below for blog post from 18th June 2017 (using [demo1.py](https://github.com/acgeospatial/beginners_sat_openCV/blob/master/demo1.py))
